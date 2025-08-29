@@ -1,0 +1,63 @@
+/* General page body styles */
+body {
+    background-color: #0f1c2d; /* Dark background color, like a night forest */
+    color: #e0e6f1; /* Light text color */
+    font-family: 'Georgia', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styles for the game container */
+.game-container {
+    background-color: rgba(255, 255, 255, 0.05); /* Transparent background with slight opacity */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Styles for the game title */
+h1 {
+    color: #4a90e2; /* Blue reminiscent of the crystal's glow */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px rgba(74, 144, 226, 0.7);
+}
+
+/* Styles for the story text */
+.story-text {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Styles for the choices area */
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Styles for the choice buttons */
+.choice-btn {
+    background-color: #2e4466; /* Dark blue for the buttons */
+    color: #e0e6f1;
+    border: 1px solid #4a90e2;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect for the buttons */
+.choice-btn:hover {
+    background-color: #4a90e2;
+    transform: scale(1.05);
+}
